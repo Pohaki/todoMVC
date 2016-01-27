@@ -1,0 +1,125 @@
+body{
+  margin: 0px auto;
+  font-family: sans-serif;
+  background-color: #DDDDDD;
+}
+.container{
+  width: 800px;
+  height: 100vh;
+  margin: 0px auto;
+}
+header h1{
+  text-align: center;
+  color: #770000;
+}
+#add-todo{
+  width: 90%;
+  margin: 0px auto;
+  border-bottom: 1px solid #CCCCCC;
+  position: relative;
+  height:79px;
+  background-color: #EEEEEE;
+}
+#add-todo input, #add-todo button{
+  height: 60px;
+  display: inline-block;
+}
+#all-selected{
+  width: 9%;
+  margin-right: 2%;
+  position: absolute;
+  top: 5px;
+  left: 1%;
+}
+#new-todo{
+  width: 87%;
+  height: 77px;
+  position: absolute;
+  top: 5px;
+  left: 11%;
+  padding: 5px;
+  font-size: 1.6em;
+  background: transparent;
+  border: 0px;
+}
+section,footer{
+  width: 90%;
+  margin: 0px auto;
+  background-color: #EEEEEE;
+}
+
+.todo{
+  height: 70px;
+  position:relative;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+.checked{
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+}
+.todo-val{
+  height: 50px;
+  width: 88%;
+  position: absolute;
+  top: 8px;
+  left: 70px;
+  font-size: 1.6em;
+  font-weight: 100;
+  background: transparent;
+  border: 0px;
+}
+.removeit{
+  z-index: 1;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 22px;
+  right: 30px;
+}
+footer{
+  height: 30px;
+  position: relative;
+}
+#count-list{
+  font-size: 0.9em;
+  position: absolute;
+  top:5px;
+  left: 7px;
+}
+#all{
+  font-size: 0.9em;
+  background: transparent;
+  border: 0px;
+  position: absolute;
+  top: 5px;
+  left: 37%;
+}
+#active{
+  font-size: 0.9em;
+  background: transparent;
+  border: 0px;
+  position: absolute;
+  top: 5px;
+  left: 42%;
+}
+#completed{
+  font-size: 0.9em;
+  background: transparent;
+  border: 0px;
+  position: absolute;
+  top: 5px;
+  left: 50%;
+}
+#clear{
+  font-size: 0.9em;
+  background: transparent;
+  border: 0px;
+  position: absolute;
+  top: 5px;
+  right: 7px;
+}
